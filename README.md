@@ -1,8 +1,8 @@
 # Swift Language Guide
 
 # Swift 소개
-https://jeong9216.tistory.com/171
-https://jeong9216.tistory.com/172
+(1) https://jeong9216.tistory.com/171  
+(2) https://jeong9216.tistory.com/172
 
 # 기본 연산자
 https://jeong9216.tistory.com/175
