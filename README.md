@@ -23,3 +23,6 @@ https://jeong9216.tistory.com/184
 
 # 제어 흐름
 https://jeong9216.tistory.com/187
+
+# 클로저
+https://jeong9216.tistory.com/190  
