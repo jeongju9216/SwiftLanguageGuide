@@ -1,5 +1,4 @@
 # Swift Language Guide
-Swift 기초 뽀개기!  
 언어의 기초는 공식 문서에서 시작이라고 생각해서 공식 문서 읽기 & 번역을 진행합니다.  
 완벽한 번역보다는 한 줄 한 줄 읽는 것에 의의를 두었습니다.  
 
@@ -24,3 +23,6 @@ https://jeong9216.tistory.com/187
 
 # 클로저
 https://jeong9216.tistory.com/190  
+
+# 구조체와 클래스 (Structures and Classes)
+https://jeong9216.tistory.com/216
