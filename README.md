@@ -130,6 +130,15 @@ https://jeong9216.tistory.com/319
 - stored type properties는 항상 lazily하게 초기화되며 여러 쓰레드가 접근해도 단 한 번만 초기화되는 것을 보증한다는 점
 <br/><br/>
 
+## Methods
+https://jeong9216.tistory.com/482
+
+#### 새로 배운 점
+- mutating 메서드는 self 프로퍼티에 완전히 새로운 인스턴스를 할당할 수 있다.
+- 열거형에서 mutating 메서드는 암시적 self를 같은 열거형의 다른 case로 설정할 수 있다.
+- 메서드의 결과를 사용하지 않을 때 @discardableResult를 붙이면 "Result of call to ~~~ is unused" 경고를 표시하지 않는다.
+<br/><br/>
+
 ## Automatic Reference Counting (ARC)
 https://jeong9216.tistory.com/454
 
