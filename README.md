@@ -111,6 +111,25 @@ https://jeong9216.tistory.com/216
 - 포인터와 직접 상호 작용해야 하는 경우 표준 라이브러리가 포인터와 버퍼 타입을 제공한다는 점
 <br/><br/>
 
+## Properties (속성)
+https://jeong9216.tistory.com/319
+
+#### 새로 배운 점
+- lazy 속성은 동시에 여러 개의 쓰레드가 접근할 경우 중복으로 초기화가 될 가능성이 있다는 점
+- Objective-C와 Swift의 클래스 인스턴스 값과 참조를 저장하는 방법이 다르다는 점 => Swift가 훨씬 단순화 되었다는 점
+- computed propety가 실제로는 저장이 안 된고 계산만 한다는 점
+- Observers
+    - willSet, didSet이 Property Observer라는 카테고리(?)라는 점
+    - 옵저버를 가진 속성을 in-out 매개 변수로 함수에 전달하면 willSet, didSet을 항상 호출한다는 점
+- property wrapper
+    - 중복되는 속성을 재사용 할 수 있다는 점
+    - 선언 방법, 활용 방법
+    - 인자를 전달할 수 있다는 점
+- projected value에 대한 것
+- 전역 상수와 변수는 항상 lazily하게 계산된다는 점
+- stored type properties는 항상 lazily하게 초기화되며 여러 쓰레드가 접근해도 단 한 번만 초기화되는 것을 보증한다는 점
+<br/><br/>
+
 ## Automatic Reference Counting (ARC)
 https://jeong9216.tistory.com/454
 
