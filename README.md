@@ -139,6 +139,19 @@ https://jeong9216.tistory.com/482
 - 메서드의 결과를 사용하지 않을 때 @discardableResult를 붙이면 "Result of call to ~~~ is unused" 경고를 표시하지 않는다.
 <br/><br/>
 
+## Subscripts
+https://jeong9216.tistory.com/483
+
+#### 새로 배운 점
+- 클래스, 구조체, 열거형은 서브스크립트(subscripts)를 정의할 수 있다.
+- 서브 스크립트를 사용하면 다른 메서드 없이 인덱스를 사용하여 값을 설정하고 검색할 수 있다.
+- subscript 키워드로만 서브스크립트를 정의 가능하다.
+- 클래스와 구조체는 필요한 만큼의 서브스크립트를 구현할 수 있다.
+- 여러 개의 서브스크립트를 정의하는 것을 subscript overloading이라고 한다.
+- 사용자 타입에 맞춰 여러 개의 파라미터를 받는 서브스크립트를 정의할 수도 있다.
+<br/><br/>
+
+
 ## Automatic Reference Counting (ARC)
 https://jeong9216.tistory.com/454
 
