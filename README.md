@@ -151,6 +151,23 @@ https://jeong9216.tistory.com/483
 - 사용자 타입에 맞춰 여러 개의 파라미터를 받는 서브스크립트를 정의할 수도 있다.
 <br/><br/>
 
+## 초기화(Initialization)
+https://jeong9216.tistory.com/486
+
+#### 새로 배운 점
+- 상수 프로퍼티는 이니셜라이저 안에서도 초기화할 수 있다.
+- 구조체의 기본 이니셜라이저가 Memberwise Initializers라는 이름이라는 것
+- designated 이니셜라이저는 해당 클래스가 직접 상속받는 슈퍼클래스의 designated 이니셜라이저를 호출해야 한다.
+- convenience 이니셜라이저는 같은 클래스의 다른 이니셜라이저만 호출해야 한다.
+- convenience 이니셜라이저는 궁극적으로 designated 이니셜라이저를 호출해야 한다.
+- Swift의 컴파일러는 2단계 초기화를 에러 없이 완료하기 위해 4가지 safety-check를 수행한다.
+- 서브클래스에서 새로 추가한 모든 프로퍼티에 기본값이 지정되면, 두 가지 규칙이 적용된다.
+    - 만약 서브클래스가 어떠한 designated 이니셜라이저도 정의하지 않는다면, 자동으로 슈퍼클래스의 모든 designated 이니셜라이저는 상속된다.
+    - 서브클래스가 슈퍼클래스의 모든 designated 이니셜라이저를 구현한 경우(또는 1번 규칙을 만족한 경우), 슈퍼클래스의 모든 convenience 이니셜라이저는 상속된다.
+- 클래스, 구조체, 열거형에서 실패할 수 있는 초기화를 정의할 수 있다.
+- raw 값을 가지는 열거형은 자동으로 failable initializer, init?(rawValue:)를 생성한다.
+- 클래스의 서브 클래스가 해당 이니셜라이저를 필수로 구현하도록 하려면 required 수식어를 클래스 이니셜라이저 앞에 붙여줍니다.
+- 프로퍼티를 초기화할 때 클로저를 사용한다면, 인스턴스의 다른 프로퍼티들은 클로저가 수행되는 시점에서 초기화가 완료된 것이 아닙니다.
 
 ## Automatic Reference Counting (ARC)
 https://jeong9216.tistory.com/454
