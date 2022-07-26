@@ -168,6 +168,14 @@ https://jeong9216.tistory.com/486
 - raw 값을 가지는 열거형은 자동으로 failable initializer, init?(rawValue:)를 생성한다.
 - 클래스의 서브 클래스가 해당 이니셜라이저를 필수로 구현하도록 하려면 required 수식어를 클래스 이니셜라이저 앞에 붙여줍니다.
 - 프로퍼티를 초기화할 때 클로저를 사용한다면, 인스턴스의 다른 프로퍼티들은 클로저가 수행되는 시점에서 초기화가 완료된 것이 아닙니다.
+<br/><br/>
+
+## 인스턴스 해제(Deinitialization)
+https://jeong9216.tistory.com/487
+
+#### 새로 배운 점
+- 슈퍼 클래스의 소멸자는 슈퍼클래스의 서브클래스에 의해 상속되고, 슈퍼클래스의 소멸자는 자동으로 서브클래스의 소멸자의 끝에 호출됩니다.
+<br/><br/>
 
 ## Automatic Reference Counting (ARC)
 https://jeong9216.tistory.com/454
