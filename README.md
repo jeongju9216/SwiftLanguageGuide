@@ -211,6 +211,13 @@ https://jeong9216.tistory.com/499
 - Any 또는 AnyObject 타입에서 알고 있는 상수나 변수의 특정 타입을 찾으려면, switch문에서 is 또는 as 패턴을 사용할 수 있습니다.
 <br/><br/>
 
+## 중첩 타입(Nested Types)
+https://jeong9216.tistory.com/500
+
+#### 새로 배운 점
+- Swift는 중첩 타입(Nested Types)를 정의할 수 있습니다. 즉, 지원하는 타입의 정의 내에서 클래스, 구조체, 열거형을 중첩할 수 있습니다.
+<br/><br/>
+
 ## Automatic Reference Counting (ARC)
 https://jeong9216.tistory.com/454
 
