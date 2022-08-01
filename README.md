@@ -232,9 +232,8 @@ https://jeong9216.tistory.com/504
 <br/><br/>
 
 ## 프로토콜(Protocols)
-https://jeong9216.tistory.com/507
+https://jeong9216.tistory.com/507  
 https://jeong9216.tistory.com/508
-
 
 #### 새로 배운 점
 - 구현해야 하는 요구사항을 지정하는 것 이외에도 이러한 요구사항 중의 일부를 구현하거나 추가 기능을 구현하도록 프로토콜을 확장할 수도 있습니다.
